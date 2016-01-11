@@ -1,6 +1,9 @@
 source 'https://rubygems.org'
 
 
+
+gem 'bootstrap-sass', '~> 3.3.6'
+
 group :test do
 	gem 'minitest-reporters'
 	gem 'mini_backtrace'
