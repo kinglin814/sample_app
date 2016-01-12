@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 
-
+gem 'bcrypt'
 gem 'bootstrap-sass', '~> 3.3.6'
 
 group :test do

@@ -4,6 +4,7 @@ class BookInStock
     @price = Float(price)
   end
   def to_s
+  def to_s
     "ISBN: #{@isbn}, price: #{@price}"
   end
 end
