@@ -1,10 +1,8 @@
-class BookInStock
-  def initialize(isbn, price)
-    @isbn = isbn
-    @price = Float(price)
+class VowelFinder 
+	include Enumerable
+  def initialize(string) @string = string
   end
-  def to_s
-  def to_s
-    "ISBN: #{@isbn}, price: #{@price}"
-  end
+  def each
+    @string.scan(/[aeiou]/) do |vowel| yield vowel
+  end end
 end

@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-
+gem 'awesome_rails_console'
 gem 'bcrypt'
 gem 'bootstrap-sass', '~> 3.3.6'
 
